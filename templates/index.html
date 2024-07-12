@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>CUPCAKES</title>
+  </head>
+
+  <body>
+<h1>Our Cupcakes</h1>
+<ul id="cupcakes-list"></ul>
+<h2>Add yours!</h2>
+<form id="new-cupcake-form">
+    <div>
+        <label for="id-flavor">Flavor:</label>
+        <input type="text" name="flavor" id="id-flavor">
+    </div>
+    <div>
+        <label for="id-size">Size: </label>
+        <input type="text" name="size" id="id-size">
+    </div>
+    <div>
+        <label for="id-rating">Raiting:</label>
+        <input type="number" name="rating" id="id-rating">
+    </div>
+    <div>
+        <label for="id-image">Image Url</label>
+        <input name="image" id="id-image">
+    </div>
+    <button>Add it</button>
+</form>
+    <script src="https://unpkg.com/jquery"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
